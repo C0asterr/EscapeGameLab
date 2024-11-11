@@ -11,12 +11,6 @@ public class Safe extends Item {
 	public void open(ArrayList<Item> playerInventory) {
 		boolean hasCombination = false;
 		
-		for (Item item : playerInventory) {
-			if (item instanceof Combination) {
-				hasCombination = true;
-				break;
-				}
-			}
 		if (hasCombination) {
 			isOpen = true; // Set the safe to open
 			System.out.println("Using the combination, you open the safe and find a diamond inside! Naturally, you pocket the diamond.");
