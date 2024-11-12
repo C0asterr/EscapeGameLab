@@ -8,7 +8,7 @@ public class Safe extends Item {
 			this.isOpen = false; // Initially, the safe is closed
 			}
 	
-	public void open(ArrayList<Item> playerInventory) {
+	
 		boolean hasCombination = false;
 		
 		if (hasCombination) {
@@ -20,4 +20,4 @@ public class Safe extends Item {
 				System.out.println("The safe is locked and you don't have the combination.");
 				}
 		}
-	}
+	
